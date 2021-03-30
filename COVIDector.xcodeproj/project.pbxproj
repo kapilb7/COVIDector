@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		82067BD526133F4500752B14 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82067BD426133F4500752B14 /* InfoViewController.swift */; };
+		82067BDA2613663D00752B14 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82067BD82613663D00752B14 /* CustomTableViewCell.swift */; };
+		82067BDB2613663D00752B14 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82067BD92613663D00752B14 /* CustomTableViewCell.xib */; };
 		8236E0AA25F2F47000BA77BC /* EnterClinicalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8236E0A925F2F47000BA77BC /* EnterClinicalDataViewController.swift */; };
 		8236E0AD25F2F48C00BA77BC /* UploadXrayImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8236E0AC25F2F48C00BA77BC /* UploadXrayImageViewController.swift */; };
 		82597F6E25EB90AD00941013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82597F6D25EB90AD00941013 /* AppDelegate.swift */; };
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		82067BD426133F4500752B14 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		82067BD82613663D00752B14 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		82067BD92613663D00752B14 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		8236E0A925F2F47000BA77BC /* EnterClinicalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterClinicalDataViewController.swift; sourceTree = "<group>"; };
 		8236E0AC25F2F48C00BA77BC /* UploadXrayImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadXrayImageViewController.swift; sourceTree = "<group>"; };
 		82597F6A25EB90AC00941013 /* COVIDector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COVIDector.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82067BDD2613665700752B14 /* Custom Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				82067BD82613663D00752B14 /* CustomTableViewCell.swift */,
+				82067BD92613663D00752B14 /* CustomTableViewCell.xib */,
+			);
+			path = "Custom Table View Cell";
+			sourceTree = "<group>";
+		};
 		8236E0AF25F2F49900BA77BC /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +81,7 @@
 		82597F6125EB90AC00941013 = {
 			isa = PBXGroup;
 			children = (
+				82067BDD2613665700752B14 /* Custom Table View Cell */,
 				82597F6C25EB90AC00941013 /* COVIDector */,
 				82597F6B25EB90AC00941013 /* Products */,
 			);
@@ -174,6 +188,7 @@
 			files = (
 				82E78A952613186F001143D9 /* Positive Sample.jpeg in Resources */,
 				82597F7A25EB90AD00941013 /* LaunchScreen.storyboard in Resources */,
+				82067BDB2613663D00752B14 /* CustomTableViewCell.xib in Resources */,
 				82E78A9226130E14001143D9 /* Negative Sample.jpg in Resources */,
 				82597F7725EB90AD00941013 /* Assets.xcassets in Resources */,
 				82597F7525EB90AD00941013 /* Main.storyboard in Resources */,
@@ -193,6 +208,7 @@
 				82597F6E25EB90AD00941013 /* AppDelegate.swift in Sources */,
 				82067BD526133F4500752B14 /* InfoViewController.swift in Sources */,
 				82E78A8926123F88001143D9 /* COVIDNetV1.mlmodel in Sources */,
+				82067BDA2613663D00752B14 /* CustomTableViewCell.swift in Sources */,
 				8236E0AA25F2F47000BA77BC /* EnterClinicalDataViewController.swift in Sources */,
 				82E78A8F26130CD7001143D9 /* COVIDNetV2.mlmodel in Sources */,
 				82597F7025EB90AD00941013 /* SceneDelegate.swift in Sources */,
