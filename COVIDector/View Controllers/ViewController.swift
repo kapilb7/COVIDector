@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     
     var enterClinicalData = UIButton(type: .system)
     var uploadChestImage = UIButton(type: .system)
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      //  print(self.view.frame.size)
         DeviceSize.deviceWidth = self.view.frame.width
         DeviceSize.deviceHeight = self.view.frame.height
         let buttonFontSize = 26 * (DeviceSize.deviceWidth / DeviceSize.baseWidth)
@@ -55,7 +55,6 @@ class ViewController: UIViewController {
     @objc func goToUploadXrayImage() {
         performSegue(withIdentifier: "toUploadXrayImage", sender: nil)
     }
-
 
 }
 

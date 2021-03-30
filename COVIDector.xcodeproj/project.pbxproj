@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82067BD526133F4500752B14 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82067BD426133F4500752B14 /* InfoViewController.swift */; };
 		8236E0AA25F2F47000BA77BC /* EnterClinicalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8236E0A925F2F47000BA77BC /* EnterClinicalDataViewController.swift */; };
 		8236E0AD25F2F48C00BA77BC /* UploadXrayImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8236E0AC25F2F48C00BA77BC /* UploadXrayImageViewController.swift */; };
 		82597F6E25EB90AD00941013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82597F6D25EB90AD00941013 /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82067BD426133F4500752B14 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		8236E0A925F2F47000BA77BC /* EnterClinicalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterClinicalDataViewController.swift; sourceTree = "<group>"; };
 		8236E0AC25F2F48C00BA77BC /* UploadXrayImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadXrayImageViewController.swift; sourceTree = "<group>"; };
 		82597F6A25EB90AC00941013 /* COVIDector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COVIDector.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +60,7 @@
 				8236E0A925F2F47000BA77BC /* EnterClinicalDataViewController.swift */,
 				8236E0AC25F2F48C00BA77BC /* UploadXrayImageViewController.swift */,
 				82E78A8B26123FBA001143D9 /* ResultViewController.swift */,
+				82067BD426133F4500752B14 /* InfoViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				8236E0AD25F2F48C00BA77BC /* UploadXrayImageViewController.swift in Sources */,
 				82E78A8C26123FBA001143D9 /* ResultViewController.swift in Sources */,
 				82597F6E25EB90AD00941013 /* AppDelegate.swift in Sources */,
+				82067BD526133F4500752B14 /* InfoViewController.swift in Sources */,
 				82E78A8926123F88001143D9 /* COVIDNetV1.mlmodel in Sources */,
 				8236E0AA25F2F47000BA77BC /* EnterClinicalDataViewController.swift in Sources */,
 				82E78A8F26130CD7001143D9 /* COVIDNetV2.mlmodel in Sources */,

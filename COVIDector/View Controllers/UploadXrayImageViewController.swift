@@ -30,8 +30,8 @@ class UploadXrayImageViewController: UIViewController, UIImagePickerControllerDe
         
         XrayView.frame = CGRect(x: DeviceSize.deviceWidth / 2 - DeviceSize.deviceWidth * 0.375, y: DeviceSize.deviceHeight / 2 - DeviceSize.deviceWidth * 0.375, width: DeviceSize.deviceWidth * 0.75, height: DeviceSize.deviceWidth * 0.75)
         XrayView.contentMode = .scaleAspectFit
-        let placeholder = UIImage(systemName: "arrow.up.doc.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 64, weight: .light, scale: .large))
-        XrayView.image = placeholder
+        _ = UIImage(systemName: "arrow.up.doc.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 64, weight: .light, scale: .large))
+        XrayView.image = UIImage(named: "Placeholder")//placeholder
         self.view.addSubview(XrayView)
         
         detect.setTitle("Detect", for: .normal)
@@ -67,11 +67,7 @@ class UploadXrayImageViewController: UIViewController, UIImagePickerControllerDe
             let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
                 UIAlertAction in
             }
-            let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel) {
-                UIAlertAction in
-            }
             alertController.addAction(okAction)
-            alertController.addAction(cancelAction)
             self.present(alertController, animated: true, completion: nil)
         } else {
             performSegue(withIdentifier: "XrayToResult", sender: nil)

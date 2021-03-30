@@ -20,6 +20,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="COVIDector" id="QeP-Qq-p6a">
                         <barButtonItem key="backBarButtonItem" title="Back" id="EjF-Lh-u5T"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="info.circle.fill" catalog="system" id="oik-Oj-EGs">
+                            <connections>
+                                <segue destination="Gmp-K3-nqf" kind="presentation" identifier="toInfo" id="gBD-oe-eIT"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <segue destination="UPv-cV-jIv" kind="show" identifier="toEnterClinicalData" id="rnN-tP-XJt"/>
@@ -29,6 +34,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-338" y="114"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="IVQ-uM-1mE">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Gmp-K3-nqf" customClass="InfoViewController" customModule="COVIDector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uyc-dS-t9D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="b4X-q6-wzy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hH1-wf-6Tf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yCp-Lm-8Pq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="441" y="102"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="h9M-AT-tka">
@@ -107,6 +128,7 @@
         <segue reference="HJc-mw-VCG"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="info.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
