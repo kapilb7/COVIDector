@@ -7,5 +7,8 @@ Check out <a href="https://github.com/kapilb7/Create_COVIDector_Model">this repo
 
 <h3>Note: This is far from production ready.</h3>
 <h3>This was part of my Final Year Project for my undergraduate course.</h3>
+<h3>The Research paper for my Final Year Project can be found <a href="https://drive.google.com/file/d/1fYgd4OUgnGzP6vrADuQwnIgpCU3D0-of/view?usp=sharing">here.</a>
+
+
 
 <br> Inspired by <a href="https://arxiv.org/pdf/2003.09871.pdf">this paper</a>.
