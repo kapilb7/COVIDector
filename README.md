@@ -12,3 +12,10 @@ Check out <a href="https://github.com/kapilb7/Create_COVIDector_Model">this repo
 
 
 <br> Inspired by <a href="https://arxiv.org/pdf/2003.09871.pdf">this paper</a>.
+
+![IMG_2963](https://user-images.githubusercontent.com/21005627/118356352-866bda80-b592-11eb-951e-08588f025bb9.PNG) ![IMG_2959](https://user-images.githubusercontent.com/21005627/118356358-8bc92500-b592-11eb-9329-1ad7af73111f.PNG) ![IMG_2960](https://user-images.githubusercontent.com/21005627/118356363-92f03300-b592-11eb-97b0-ea33d031dc61.PNG)![IMG_5768B4E12D81-1](https://user-images.githubusercontent.com/21005627/118356399-b6b37900-b592-11eb-81bb-a752eca7cc0e.jpeg) ![IMG_2961](https://user-images.githubusercontent.com/21005627/118356407-c0d57780-b592-11eb-9ce1-9ca6df3eff8c.PNG) ![IMG_2962](https://user-images.githubusercontent.com/21005627/118356414-c6cb5880-b592-11eb-951a-d1ed2e963849.PNG)
+
+
+
+
+
